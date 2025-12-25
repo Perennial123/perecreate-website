@@ -1,0 +1,91 @@
+/* ELEMENTS */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(78, 169, 183);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+
+
+h1 {
+    
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(56, 21, 95);
+    font-size: 40px;
+    padding: 20px;
+    background-color: rgb(149, 215, 226);
+    border: 8px solid rgb(191, 253, 255);
+}
+
+h2, h3 {
+    /* Hilde Sharp Regular */
+    
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(21, 53, 95);
+    font-size: 25px;
+    
+}
+
+p {
+    /* PF Reminder Regular */
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: rgb(59, 81, 182);
+}
+
+a {
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(21, 53, 95);
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    display: block; 
+    /* display: block; turns any element into 
+    a block and allow adjustment of alignment or anything else */
+    border: 6px;
+}
+
+
+/* CLASSES */
+.main-content {
+    background-color:rgb(52, 197, 166);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    
+}
+
+.channels {
+    background-color: rgb(191, 253, 255);
+    padding: 10px;
+
+}
+
+.top, .logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(149, 215, 226);
+    border: 8px solid rgb(191, 253, 255);
+    
+}
+
+.char, .background, .uncategorized {
+    
+    align-items: center;
+    display: inline-block;
+    padding: 20px;
+    border: 10px solid rgb(191, 253, 255);
+}
