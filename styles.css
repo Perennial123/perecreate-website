@@ -2,7 +2,7 @@
 body {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(114, 220, 236);
+    background-color: #0058AB;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
@@ -16,7 +16,7 @@ h1 {
     color: rgb(56, 21, 95);
     font-size: 40px;
     padding: 20px;
-    background-color: rgb(149, 215, 226);
+    background-color: #368DC5;
     border: 8px solid rgb(191, 253, 255);
 }
 
@@ -77,7 +77,7 @@ img {
     margin-bottom: 20px;
     padding: 20px;
     margin: auto;
-    background-color: rgb(149, 215, 226);
+    background-color: #6662C2;
     border: 8px solid rgb(191, 253, 255);
     
 }
