@@ -1,18 +1,37 @@
+<!-- code palette hex code 
+ #D6F6FF (light blue)
+ #7BD591 (a little dark green)
+ #99ECAE green that's brigher than the little dark greeb
+ #7CF3AB even brigher green than 99ECAE
+ #444FAD dark purple blue 
+
+for clicking sound effect use 
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is PereCreate's personal portfolio website, with bits of her creativity">
-    <meta name="keywords" content="personal, website, perecreate, art, resume">
-    <link rel="icon" href="PereIcon.png" type="image/png" size="64x64">
+    <meta name="description" content="This is Susie Yang/PereCreate's personal portfolio website, a one filled with artistic creativity">
+    <meta name="keywords" content="personal website, perecreate, art, resume">
+    <link rel="icon" href="PereIcon.png" type="image/png" sizes="64x64">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <title>pereCreate</title>   
+    <title>pereCreate/Susie Yang</title>
      
 </head>
 <body>
-    <div class="top"> 
+    <header>
+        <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- <div class="top"> 
     <a href='https://perecreate.itch.io/'><img src="perecreate-img.jpg" alt="PereCreate Logo" class="logo"></a>
     </div>
   <h1>Welcome to PereCreate's Website</h1>
@@ -37,7 +56,61 @@
         <a href="peredesign1@gmail.com">peredesign1@gmail.com</a>
         
     </div>
-    </section>
+    </section> -->
+
+    <div class="store-background">
+        <div class="chat-bubble">
+                <img src="Pere_chat_bubble.png">
+                <p id="char-name"></p>
+                <p id="chat"></p>
+                <button type="button" id="chat-button">
+                click to refresh chat
+            </button>
+        </div>
+        <div class="merchant-pere">
+            <img src="Merchant_pere.png">
+        </div>
+
+        <div class="store">
+            <div class="product">
+                <a href="test.com"><img src="perecreate-img.jpg"></a>
+            </div>
+
+            <div class="product">
+                <a href="test.com"><img src="perecreate-img.jpg"></a>
+            </div>
+
+            <div class="product">
+                <a href="test.com"><img src="perecreate-img.jpg"></a>
+            </div>
+
+            <div class="product">
+                <a href="test.com"><img src="perecreate-img.jpg"></a>
+            </div>
+
+            <div class="product">
+                <a href="test.com"><img src="perecreate-img.jpg"></a>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <!-- introduce my skills
+            in a rpg merchant way-->
+        </div>
+
+        <div class="contact">
+            <!-- structure a business card
+             of mine -->
+        </div>
+
+        <audio controls autoplay loop>
+            <source src="sound_effects\perecreate-web-bgm.mp3" type="audio/mpeg">
+        </audio>
+
+
+    </div>
 </body>
+<script src="script.js"></script>
 
 </html>
